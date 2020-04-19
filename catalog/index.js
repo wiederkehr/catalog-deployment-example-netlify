@@ -5,9 +5,9 @@ import { Catalog, pageLoader } from "catalog";
 const pages = [
   {
     path: "/",
-    title: "Welcome",
-    content: pageLoader(() => import("./WELCOME.md"))
-  }
+    title: "Walkthrough",
+    content: pageLoader(() => import("./walkthrough.md")),
+  },
 ];
 
 ReactDOM.render(
