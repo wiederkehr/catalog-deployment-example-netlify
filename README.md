@@ -1,4 +1,4 @@
-# Catalog on Netlify
+# Publish Catalog on Netlify
 
 Example for creating and publishing an instance of [Catalog](https://catalog.style/) using [Netlify](https://www.netlify.com/).
 
@@ -17,7 +17,7 @@ For more details about how to use Catalog, check out the [documentation](https:/
 1. Create a new site on Netlify following these [three easy steps](https://app.netlify.com/start).
 2. Add the script `yarn catalog-build` as the build command and `catalog/build` as the publish directory.
 
-![Basic build settings](https://github.com/wiederkehr/catalog-netlify-example/raw/master/catalog/static/netlify-build-settings.png "Basic build settings")
+![Basic build settings](https://github.com/wiederkehr/catalog-deployment-example-netlify/raw/master/catalog/static/netlify-build-settings.png "Basic build settings")
 
 ## 3. Publish to Netlify
 
