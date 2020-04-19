@@ -13,18 +13,11 @@ For more details about how to use Catalog, check out the [documentation](https:/
 ## 2. Configure Netlify
 
 1. Create a new site on Netlify following these [three easy steps](https://app.netlify.com/start).
+2. Add the script `yarn catalog-build` as the build command and `catalog/build` as the publish directory.
 
-## FIXME: everything below this line has to be rewritten
-
-1. Setup Netlify deployment with Git on the `Settings` page of your Github repository.
-2. Select the `/doc` folder of the `master` branch as the source for your Github Pages.
-
-![Github Pages section on the Settings page](https://github.com/wiederkehr/catalog-githubpages-example/raw/master/catalog/static/github-pages-source.png "Github Pages section on the Settings page")
+![Basic build settings](https://github.com/wiederkehr/catalog-netlify-example/raw/master/catalog/static/netlify-build-settings.png "Basic build settings")
 
 ## 3. Publish to Netlify
 
-You can build Catalog locally and then publish a new version manually whenever you’re ready.
-
-1. Build your Catalog locally using the script `catalog-build --public-url=/[your-repo-name]/ --out=docs`.
-2. Push the code changes to your repository on Github.
-3. Navigate to `https://[your-username].github.io/[your-repo-name]/` to see your new Catalog in full bloom.
+- Everytime you push new code to the `master` branch, your Catalog will be deployed automatically.
+- You can set up a custom domain for your site and secure it with HTTPS on Netlify.
