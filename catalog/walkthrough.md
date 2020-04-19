@@ -1,4 +1,4 @@
-# Catalog on Netlify
+# Publish Catalog on Netlify
 
 Example for creating and publishing an instance of [Catalog](https://catalog.style/) using [Netlify](https://www.netlify.com/).
 
