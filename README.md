@@ -2,6 +2,8 @@
 
 Example for creating and publishing an instance of [Catalog](https://catalog.style/) using [Netlify](https://www.netlify.com/).
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/64350e14-9cb8-44de-8932-bb6ea205daf0/deploy-status)](https://app.netlify.com/sites/catalog-netlify-example/deploys)
+
 ## 1. Install Catalog
 
 1. Create a new Catalog following these [instructions](https://docs.catalog.style/installation/create-catalog).
